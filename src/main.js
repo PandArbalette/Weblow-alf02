@@ -68,7 +68,7 @@ export default class Sketch {
   }
 
   settings() {
-    let that = this
+    // let that = this
     this.settings = {
       progress: 0,
       scale: 1,
@@ -87,7 +87,7 @@ export default class Sketch {
   // }
 
   addObjects() {
-    let that = this
+    // let that = this
     this.material = new THREE.ShaderMaterial({
       extensions: {
         derivatives: '#extension GL_OES_standard_derivatives : enable',
@@ -123,7 +123,7 @@ export default class Sketch {
   }
 
   render() {
-    this.meshes.forEach((m, i) => {
+    this.meshes.forEach((m) => {
       // m.position.y = -this.settings.progress;
       m.position.z = (this.settings.progress * Math.PI) / 2
     })
