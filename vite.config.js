@@ -1,9 +1,9 @@
 import { defineConfig } from 'vite'
-import eslintPlugin from 'vite-plugin-eslint'
+import glsl from 'vite-plugin-glsl';
 
 // vite.config.js
 export default defineConfig({
-  plugins: [eslintPlugin({ cache: false })],
+  plugins: [glsl()],
   server: {
     host: 'localhost',
     cors: '*',

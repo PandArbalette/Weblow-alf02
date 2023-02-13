@@ -5,8 +5,33 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      canvas {
+        display: block;
+      }
+      #container {
+        width: 100vw;
+        height: 100vh;
+      }
+    </style>
   </head>
   <body>
+    <!-- <canvas class="webgl"></canvas>
+    <nav>
+      <a href="/">Sphere</a>
+      <ul>
+        <li>Explore</li>
+        <li>Create</li>
+      </ul>
+    </nav>
+    <h1 class="title">Give it a spin</h1> -->
+    <div id="container"></div>
+    <!-- <div id="app"></div> -->
     <script type="module" src="/src/main.js"></script>
+    <!-- <script type="module" src="/src/main.js"></script> -->
   </body>
 </html>
