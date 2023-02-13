@@ -6,11 +6,11 @@ import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass.js'
 import { ShaderPass } from 'three/examples/jsm/postprocessing/ShaderPass.js'
 
 import { CustomPass } from './CustomPass.js'
-import t1 from './img/1.jpg'
-import t2 from './img/2.jpg'
-import t3 from './img/3.jpg'
-import fragment from './shader/fragment.glsl'
-import vertex from './shader/vertex.glsl'
+import t1 from '../dist/img/1.jpg'
+import t2 from '../dist/img/2.jpg'
+import t3 from '../dist/img/3.jpg'
+import fragment from '../dist/shader/fragment.glsl'
+import vertex from '../dist/shader/vertex.glsl'
 
 export default class Sketch {
   constructor(options) {
